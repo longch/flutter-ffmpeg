@@ -46,6 +46,7 @@ android {
 }
 
 dependencies {
-    implementation(name: 'mobile-ffmpeg-min-gpl-correction-4.4.LTS', ext: 'aar')
+    // implementation(name: 'mobile-ffmpeg-min-gpl-correction-4.4.LTS', ext: 'aar')
+    implementation files('libs/mobile-ffmpeg-min-gpl-correction-4.4.LTS.aar')
     // implementation 'com.arthenica:mobile-ffmpeg-' + safePackageName(safeExtGet('flutterFFmpegPackage', 'https')) + ':' + safePackageVersion(safeExtGet('flutterFFmpegPackage', 'https'), safeExtGet('mobileFFmpegVersion', '4.4'), safeExtGet('mobileFFmpegLTSVersion', '4.4'))
 }
